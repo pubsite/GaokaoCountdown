@@ -2,7 +2,7 @@
 <html lang="zh-cmn>
 <head>
 <meta charset="UTF-8">
-<title>高考顺利</title>
+<title>金榜题名！</title>
 <style>
 body{
   overflow: hidden;
@@ -130,7 +130,7 @@ window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
 window.onload=function starttime(){
-        time(h1,'2023/6/07');     // 高考的时间
+        time(h1,'2024/06/07');     // 过年的时间
         ptimer = setTimeout(starttime,1000); // 添加计时器
 }
 
@@ -143,7 +143,7 @@ window.onload=function starttime(){
         var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数 
         var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
         var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
-        obj.innerHTML="<br>距离2023年高考还有：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>长风破浪会有时，<br>直挂云帆济沧海，<br>祝一举夺魁。<br>There will be times when the wind breaks the waves, <br>Hang up the clouds and sail to the sea,<br>I wish you the best of luck.</span>"
+        obj.innerHTML="<br>距离2024年高考还有：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"<br><span>考试顺利,<br>金榜题名,<br>乘风破浪,<br>放松心态, <br>加油！！！,<br>高考，我们来啦！.</span>"
         return true;
     }
 </script>
